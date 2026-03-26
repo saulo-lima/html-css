@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colgroup</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #container{
+            overflow-x:auto;
+        }
+        table{
+            margin:10px;
+            border-collapse: collapse;  
+        }
+        td, th{
+            border: 1px solid black;
+             padding:5px 10px;
+             color: white;
+        }
+        .cor1{
+            background-color: red;
+        }
+        .cor2{
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercício de tabela</h1>
+    <div id="container">
+        <table>
+            <colgroup>
+            <col class="cor1">
+            <col class="cor2">
+            <col class="cor1">
+            <col class="cor2">
+            </colgroup>
+            <caption>Funcionarios Novos</caption>
+            <tr>
+                <th scope="col">Nome</th>
+                <th scope="col">Sexo</th>
+                <th scope="col">Idade</th>
+                <th scope="col">Profissão</th>
+            </tr>
+            <tr>
+                <td>Ana Maria</td>
+                <td>M</td>
+                <td>25 anos</td>
+                <td>Desenvolvedora front end Pleno</td>
+            </tr>
+             <tr>
+                <td>Marcelo silva</td>
+                <td>H</td>
+                <td>26 anos</td>
+                <td>Desenvolvedor Back-end Junior</td>
+            </tr>
+             <tr>
+                <td>Marcos Santos</td>
+                <td>H</td>
+                <td>19 anos</td>
+                <td>Estagiário</td>
+            </tr>
+             <tr>
+                <td>Luiza sampaio</td>
+                <td>M</td>
+                <td>22 anos</td>
+                <td>Desenvolvedora Front-end Junior</td>
+            </tr>
+             <tr>
+                <td>Felipe Guanabara</td>
+                <td>H</td>
+                <td>37 anos</td>
+                <td>Full-stack Senior</td>
+            </tr>
+             <tr>
+                <td>Maurício Fernades</td>
+                <td>H</td>
+                <td>27 anos</td>
+                <td>Desenvolvedor Back-end Pleno</td>
+            </tr>
+        </table>
+    </div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, optio corporis necessitatibus eius soluta eligendi perspiciatis quos tempora tenetur repudiandae, veniam fugiat aliquam? Dolorum, quas. Provident maxime beatae illum saepe?
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil odit eius eos quod voluptatem vero natus quas unde minima labore! Placeat eum aperiam maxime neque nesciunt tenetur dignissimos sapiente accusantium?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, optio corporis necessitatibus eius soluta eligendi perspiciatis quos tempora tenetur repudiandae, veniam fugiat aliquam? Dolorum, quas. Provident maxime beatae illum saepe?
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil odit eius eos quod voluptatem vero natus quas unde minima labore! Placeat eum aperiam maxime neque nesciunt tenetur dignissimos sapiente accusantium?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, optio corporis necessitatibus eius soluta eligendi perspiciatis quos tempora tenetur repudiandae, veniam fugiat aliquam? Dolorum, quas. Provident maxime beatae illum saepe?
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil odit eius eos quod voluptatem vero natus quas unde minima labore! Placeat eum aperiam maxime neque nesciunt tenetur dignissimos sapiente accusantium?
+    </p>
+</body>
+</html>

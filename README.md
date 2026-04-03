@@ -4,7 +4,7 @@ Este repositório reúne meus estudos iniciais em desenvolvimento web, com foco 
 
 Aqui você encontrará exercícios, desafios e pequenos projetos desenvolvidos ao longo do meu aprendizado, principalmente através do curso do professor Gustavo Guanabara (Curso em Vídeo).
 
-###Acesse 
+### Acesse 
 https://saulo-lima.github.io/Estudos-html-css/
 
 ---

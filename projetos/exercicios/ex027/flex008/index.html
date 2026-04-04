@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible box</title>
+
+    <style>
+        #container{
+            background-color: antiquewhite;
+            display: flex;
+            height: 100px;
+
+        }
+        .item {
+            background-color: aqua;
+            border: 1px solid black ;
+            text-align: center;
+            padding: 20px;
+        }
+
+        #i1 {
+            align-self: flex-start;
+        }
+        #i2 {
+            align-self: stretch;
+        }
+        #i3 {
+            align-self: flex-end;
+        }
+        #i4 {
+            align-self: center;
+        }
+        #i5 {
+            align-self: flex-end;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="container">
+        <div class="item" id="i1">o</div>
+        <div class="item" id="i2">a</div>
+        <div class="item" id="i3">l</div>
+        <div class="item" id="i4">u</div>
+        <div class="item" id="i5">S</div>
+    </div>
+
+</body>
+</html>

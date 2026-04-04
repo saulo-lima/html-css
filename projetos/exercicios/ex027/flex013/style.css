@@ -23,12 +23,11 @@ header {
 }
 
 header > h1 {
-    border: 3px dotted black;
     flex: 0 0 200px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
 }
 
 header > nav {
-    border: 3px dotted black;
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-end;
@@ -52,8 +51,17 @@ header > nav > a:hover {
 
 main {
     background-color: white;
-    margin: 10px;
+    margin:10px auto;
     padding: 10px;
     border-radius: 10px;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.4);
+    max-width: 769px;
+}
+
+main > h2 {
+    margin: 10px;
+}
+
+main > p {
+    padding: 10px;
 }
